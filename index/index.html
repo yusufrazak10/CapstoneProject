@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FOOTBALL</title> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Dropdown menu -->
+    <div id="webpage">
+      <button class="accordion">Best teams</button>
+      <div class="options">
+        <p>Real Madrid</p>
+        <p>Barcelona</p>
+        <p>Arsenal</p>
+        <p>Liverpool</p>
+        <p>Manchester City</p>
+        <p>Bayern Munich</p>
+      </div>
+
+      <button class="accordion">Best players</button>
+      <div class="options">
+        <p>Messi</p>
+        <p>Ronaldo</p>
+        <p>Zidane</p>
+        <p>Pele</p>
+        <p>Maradona</p>
+      </div>
+
+      <!-- First heading -->
+      <h1>BACKGROUND</h1>
+      <!-- Information about the BACKGROUND -->
+      <p class="p1" id="background">
+        Records show that football may have originated over 2000 years ago in
+        ancient China, Greece and Rome, where the 'ball' was made of rock or
+        animal hide stuffed with hair. However, 'football' as we know it today
+        has its roots in 19th century England. Football spread from England to
+        Europe and across the Atlantic. It is the most watched, most played and
+        most famous sport in the entire world. People from all around the world
+        love and support the 'beautiful game'.
+        <button
+          type="button"
+          class="button"
+          onclick="saveButton(event, 'background')"
+        >
+          Save for later
+        </button>
+      </p>
+
+      <!-- Second heading-->
+      <h2>FOOTBALL POSITIONS</h2>
+      <!-- Assign container class to edit the table -->
+      <div class="container" id="positions">
+        <!-- Image of positions in football -->
+        <img src="Image3.jpeg" alt="Positions in football" class="img1" />
+        <button
+          type="button"
+          class="button"
+          onclick="saveButton(event, 'positions')"
+        >
+          Save for later
+        </button>
+        <!-- Table about football positions -->
+        <table class="t1">
+          <tr>
+            <th>POSITIONS</th>
+            <th>TYPES</th>
+          </tr>
+          <tr>
+            <td>Goalkeeper</td>
+            <td>Goalkeeper</td>
+          </tr>
+          <tr>
+            <td>Defender</td>
+            <td>
+              Right back<br />
+              Left back<br />
+              Centre back
+            </td>
+          </tr>
+          <tr>
+            <td>Midfielder</td>
+            <td>
+              Central midfielder<br />
+              Attacking midfielder<br />
+              Defensive midfielder
+            </td>
+          </tr>
+          <tr>
+            <td>Attacker</td>
+            <td>
+              Centre forward<br />
+              Striker<br />
+              Winger
+            </td>
+          </tr>
+        </table>
+        <button
+          type="button"
+          class="button"
+          onclick="saveButton(event, 'positionsTable')"
+        >
+          Save for later
+        </button>
+      </div>
+
+      <!-- Third heading -->
+      <h3>GENERAL INFORMATION ABOUT FOOTBALL</h3>
+      <!-- Information about the third heading -->
+      <p class="p2" id="generalInfo">
+        Each team consists of 11 players, one of which is the goalkeeper. A game
+        is split into two 45-minute halves, with a break in between for
+        halftime. The aim of the game is to score goals by getting the ball into
+        the other team’s net. The team with the most goals at the end of the
+        game wins. The only player allowed to touch the ball with his hands when
+        the ball is in play is the goalkeeper. There is no time limit for
+        possession and the game clock does not stop when the ball is out of
+        play. If the referee deems it necessary, he may add extra time at the
+        end of each half. This is called stoppage time or injury time. Penalties
+        are up to the referee's discretion and can be given for a variety of
+        reasons. The most common reason is for a player to commit a reckless or
+        violent act against another player. For minor offenses, a penalty kick
+        or free kick may be awarded to the opposing team. The offending player
+        may also be given a yellow or red card. If a player is given a red card
+        he is forced to leave the pitch and cannot complete the game. Two yellow
+        cards are equivalent to a red card.
+        <button
+          type="button"
+          class="button"
+          onclick="saveButton(event, 'generalInfo')"
+        >
+          Save for later
+        </button>
+      </p>
+
+      <!-- Fourth heading -->
+      <h4>BEST ACCOLADES IN FOOTBALL</h4>
+      <!-- Assign container2 to edit the picture and list -->
+      <div class="container2" id="bestAccolades">
+        <!-- Image of accolades in football -->
+        <img src="Image4.jpeg" alt="Football trophies" class="img2" />
+        <button
+          type="button"
+          class="button"
+          onclick="saveButton(event, 'bestAccoladesImage')"
+        >
+          Save for later
+        </button>
+        <!-- List about the best accolades in football -->
+        <ul class="ul1">
+          <li>Ballon d'or</li>
+          <li>World Cup</li>
+          <li>Euro's</li>
+          <li>Champions League</li>
+          <li>Fifa Best</li>
+          <li>Golden Boot</li>
+          <li>Golden Glove</li>
+        </ul>
+        <button
+          type="button"
+          class="button"
+          onclick="saveButton(event, 'bestAccolades')"
+        >
+          Save for later
+        </button>
+      </div>
+
+      <!-- Block including a quote -->
+      <div class="div1" id="quote">
+        <img src="Image5.jpeg" alt="Ronaldinho" class="img3" />
+        <p class="p4">
+          "I learned all about life with a ball at my feet" ~ Ronaldinho
+          <button
+            type="button"
+            class="button"
+            onclick="saveButton(event, 'quote')"
+          >
+            Save for later
+          </button>
+        </p>
+      </div>
+
+      <!-- Second block -->
+      <div class="div3" id="footballIsLife">
+        <img src="Image6.jpeg" alt="Football pitch" class="img4" />
+        <div class="text">
+          <p>
+            Football is not just a sport, it's a way of life.
+            <button
+              type="button"
+              class="button"
+              onclick="saveButton(event, 'footballIsLife')"
+            >
+              Save for later
+            </button>
+          </p>
+        </div>
+      </div>
+
+      <!-- 5th and final image -->
+      <img src="Image7.jpeg" alt="Football" class="img5" />
+      <button
+        type="button"
+        class="button"
+        onclick="saveButton(event, 'finalImage')"
+      >
+        Save for later
+      </button>
+
+      <div class="div4">
+        <p class="p3">Is football your favourite sport ?</p>
+        <!-- Radio button form -->
+        <form action="/action_page.php" method="post" class="form1">
+          <input type="radio" id="Yes" name="fav_sport" value="Yes" />
+          <label for="Yes"> Yes </label><br />
+          <input type="radio" id="No" name="fav_sport" value="No" />
+          <label for="No"> No </label><br />
+          <input
+            type="radio"
+            id="IDon'tWatchSport"
+            name="fav_sport"
+            value="IDon'tWatchSport"
+          />
+          <label for="IDon'tWatchSport"> I don't watch sport <br /> </label>
+          <!-- Submit button -->
+          <input type="submit" value="Submit" id="submit" />
+        </form>
+      </div>
+
+      <!-- Form for textarea -->
+      <form action="/action_page.php" method="post" class="form2">
+        <label for="message"> Enter any feedback : </label>
+        <textarea id="message" name="message" rows="8"> </textarea>
+        <!-- Submit button -->
+        <input type="submit" value="submit" id="submit" />
+      </form>
+
+      <!-- Menu -->
+      <nav>
+        <ul>
+          <li class="li">
+            <a href="https://contactdetails.tiiny.site"> Personal details </a>
+          </li>
+          <li class="li">
+            <a href="https://faveplayerandteam.tiiny.site">
+              Favourite player and team
+            </a>
+          </li>
+          <li class="li">
+            <a href="save.html"> Saved Page </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

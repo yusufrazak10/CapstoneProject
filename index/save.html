@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Save for later</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <h3>SAVED CONTENT</h3>
+
+    <!-- To display saved items  -->
+    <div id="savedDisplay" class="likeButton"></div>
+
+    <h2>COMMENTS</h2>
+    <!-- Form for textarea -->
+    <form method="post" class="saveForm">
+      <label for="comments"> Enter any comments : </label>
+      <textarea id="comments" name="comments" rows="8"> </textarea><br />
+      <!-- Submit button -->
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h1>USER DETAILS</h1>
+    <form method="post" class="contactForm">
+      <!-- Contact form for user details -->
+      <label for="fName"> First name : </label>
+      <input type="text" id="fName" name="fName" /> <br />
+      <label for="sName"> Surname : </label>
+      <input type="text" id="sName" name="sName" /> <br />
+      <label for="mail"> Email : </label>
+      <input type="text" id="mail" name="mail" /> <br />
+      <!-- Text area for user message -->
+      <label for="message"> Enter a message : </label>
+      <textarea id="message" name="message" rows="8"> </textarea>
+      <!-- Submit button -->
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- To display liked items -->
+    <div id="likedItems" class="likeButton"></div>
+  </body>
+</html>
